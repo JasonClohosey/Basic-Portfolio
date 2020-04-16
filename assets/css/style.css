@@ -40,6 +40,27 @@ body {
     margin: auto;
     margin-top: 5em;
 }
+.Portfolio {
+    background-color: white;
+    width: 960px;
+    margin: auto;
+    margin-top: 5em;
+}
+.contact {
+    background-color: white;
+    width: 960px;
+    margin: auto;
+    margin-top: 5em;
+}
+.profilePic {
+    padding: 0em 2em 2em 0em;
+}
+.about {
+    padding: 1em 0em .5em 1em;
+}
+.paragraph {
+    padding: 2em 2em 2em 2em;
+}
 .col-sm-6 {
     justify-content: center;
 }
