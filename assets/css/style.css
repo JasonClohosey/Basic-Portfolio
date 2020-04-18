@@ -1,5 +1,6 @@
 body {
     background-image: url(/Users/Jason/Desktop/Basic-Portfolio/assets/css/light_honeycomb/light_honeycomb_@2X.png);
+    overflow-x: hidden;
 }
 
 .header{
@@ -38,8 +39,11 @@ body {
 .aboutMe {
     background-color: white;
     width: 960px;
+    /* height: 600px; */
     margin: auto;
-    margin-top: 5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 1rem;
 }
 .Portfolio {
     background-color: white;
@@ -53,25 +57,39 @@ body {
 .contact {
     background-color: white;
     width: 960px;
-    height: 450px;
+    /* height: 480px; */
     margin: auto;
-    margin-top: 5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 1rem;
+}
+.contactForm {
+    color: limegreen;
 }
 .profilePic {
-    padding: 0em 2em 2em 0em;
+    padding: 0em 2em 2em 1em;
 }
 .about {
     padding: 1em 0em .5em 1em;
 }
 .paragraph {
-    padding: 2em 2em 2em 2em;
+    padding: 0em;
+    margin: 1em;
 }
 .col-sm-6 {
     justify-content: center;
 }
+html, body {
+    height: 100%;
+    position: relative;
+}
 .footer {
-    background-color: darkgray;
-    border-top: darkgreen;
+    background-color: black;
+    border-top: 3px solid limegreen;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2em;
 }
 .nameBar {
     width: 100%;
