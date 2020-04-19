@@ -50,7 +50,10 @@ body {
     color: limegreen;
     width: 960px;
     margin: auto;
-    margin-top: 2em;
+    margin-top: 1em;
+}
+.card {
+    margin-bottom: 1em;
 }
 .Portfolio h1 {
     padding: .6em 0em 0em 1em;
@@ -85,7 +88,7 @@ html, body {
     height: 100%;
     position: relative;
 }
-.footer {
+footer {
     background-color: black;
     border-top: 3px solid limegreen;
     position: absolute;
