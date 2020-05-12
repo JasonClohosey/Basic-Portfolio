@@ -1,5 +1,5 @@
 body {
-    background-image: url(/Users/Jason/Desktop/Basic-Portfolio/assets/css/light_honeycomb/light_honeycomb_@2X.png);
+    background-image: url("../images/light_honeycomb.png");
     overflow-x: hidden;
 }
 
